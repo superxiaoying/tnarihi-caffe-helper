@@ -449,3 +449,4 @@ class ScalarDataLayer(BaseDataLayer):
             indexes = np.concatenate((indexes, indexes2))
             self.at_ = res
         self.data_[:, 0, 0, 0] = self.values_[indexes]
+        上面的代码即为数据读入层
